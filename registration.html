@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        #all {
+            background-color: cadetblue;
+            text-align: center;
+            border: 2px solid black;
+            font-size: 20px;
+            margin-top: 100px;
+        }
+        
+        button {
+            font-size: 20px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        
+        input {
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="all">
+        <h1>Registration Form</h1>
+        <label id="Email">Email : </label><br>
+        <input type="text" id="Email" placeholder="Email" required><br>
+        <label id="password">Password : </label><br>
+        <input type="password" id="password" placeholder="password" required><br>
+        <label id="password">Re Enter password : </label><br>
+        <input type="password" id="password" placeholder="Re Enter password" required><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <select id="country" name="country">
+            <option value="volvo">+91</option>
+            <option value="saab">+1</option>
+            <option value="mercedes">+34</option>
+            <option value="audi">+234</option>
+          </select>
+        <input type="text" placeholder="Mobile Number"><br>
+        <input type="submit">
+    </div>
+</body>
+
+</html>
